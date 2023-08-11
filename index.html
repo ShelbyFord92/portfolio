@@ -1,189 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
+<head>
+  <meta charset="utf-8">
 
-    <!-- 
-      TODO
+  <!-- 
+    TODO
 
-      Upload your Unemployable (or whatever photo you like) to the assets/images folder
-      and change the name of the image below to match the uploaded one
+    Upload your Unemployable (or whatever photo you like) to the assets/images folder
+    and change the name of the image below to match the uploaded one
 
-      Change the title in the <title> tag to whatever you would like the title of your portfolio to be
+    Change the title in the <title> tag to whatever you would like the title of your portfolio to be
 
-      This should be the same across all pages.
-     -->
-    <link rel="icon" href="./assets/images/profile.png" />
-		<title>Shelby Ford | Graphic Designer</title>
-    <meta name="description" content="A portfolio for Shelby Ford.">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    This should be the same across all pages.
+  -->
+  <link rel="icon" href="./assets/images/profile.png" />
+  <title>Shelby Ford | Graphic Designer</title>
+  <meta name="description" content="A portfolio for Shelby Ford.">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-		<link rel="stylesheet" href="./css/layout.css">
-    <link rel="stylesheet" href="./css/typography.css">
-    <link rel="stylesheet" href="./css/utilities.css">
+  <link rel="stylesheet" href="./css/layout.css">
+  <link rel="stylesheet" href="./css/typography.css">
+  <link rel="stylesheet" href="./css/utilities.css">
 
-		<script defer src="./js/script.js"></script>
-	</head>
-	<body>
-    <!-- NAVBAR -->
-    <div class="navbar">
-      <a class="nav-title-link" href="./index.html">
-        <!-- TODO - Change the "Portfolio Title" to whatever you want displayed in the top left -->
-        <span class="nav-title">Shelby Ford | Graphic Designer</span>
-         <!-- TODO - Change the email after 'mailto:' to your email address for contact -->
-        <a class="button" href="mailto:musicbyford@gmail.com">
-          <span class="button-text">Contact Me</span>
-        </a>
+  <script defer src="./js/script.js"></script>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <div class="navbar">
+    <a class="nav-title-link" href="./index.html">
+      <!-- TODO - Change the "Portfolio Title" to whatever you want displayed in the top left -->
+      <span class="nav-title">Shelby Ford | Graphic Designer</span>
+      <!-- TODO - Change the email after 'mailto:' to your email address for contact -->
+      <a class="button" href="mailto:musicbyford@gmail.com">
+        <span class="button-text">Contact Me</span>
       </a>
-    </div>
+    </a>
+  </div>
 
-    <!-- MAIN PAGE CONTENT -->
-    <div id="main-content">
+  <!-- MAIN PAGE CONTENT -->
+  <div id="main-content">
 
-      <!-- PORTFOLIO HEADER -->
-      <div id="portfolio-header">
-        <div id="portfolio-header-image-container">
-          <!-- 
-            TODO
+    <!-- PORTFOLIO HEADER -->
+    <div id="portfolio-header">
+      <div id="portfolio-header-image-container">
+        <!-- 
+          TODO
 
-            - Change the img "src" attribute to point to the Unemployable image you uploaded (or whatever image).
-            - Change the number to point to your Unemployable & replace the OpenSea link with your own
-            - If you aren't using an Unemployable as your image, remove the entire "a" element
-          -->
-          <img src="./assets/images/profile.png" class="portfolio-header-image">
-            <span class="image-caption"></span>
-          </a>
-        </div>
-
-          <!-- 
-            TODO
-
-            - Change the main-title to whatver you want
-            - Change the body-text after that to a quick introduction to what you do
-            - Edit the button text if you feel like it. It will link to the projects section below.
-          -->
-        <div id="portfolio-header-text-container">
-            <div class="header-text">
-              <span class="main-title">Hi, I'm Shelby Ford</span>
-              <div class="body-text">I'm a Graphic Designer based out of Northeastern Pennsylvania</div>
-            </div>
-            <a class="button" id="my-work-link">
-              <span class="button-text">Check out my projects</span> 
-              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
-            </a>
-        </div>
+          - Change the img "src" attribute to point to the Unemployable image you uploaded (or whatever image).
+          - Change the number to point to your Unemployable & replace the OpenSea link with your own
+          - If you aren't using an Unemployable as your image, remove the entire "a" element
+        -->
+        <img src="./assets/images/profile.png" class="portfolio-header-image">
+        <span class="image-caption"></span>
       </div>
 
-      <!-- ABOUT SECTION -->
       <!-- 
         TODO
 
-        - Change the subheader-text to whatever header you want
-        - Add paragraphs using the <div class="body-text"></div> elements in the "about-section-content"
+        - Change the main-title to whatver you want
+        - Change the body-text after that to a quick introduction to what you do
+        - Edit the button text if you feel like it. It will link to the projects section below.
       -->
-      <div id="about-section">
-        <span class="subheader-text">My Background / About Me</span>
-        <div class="about-section-content">
-          <div class="body-text">At my core, I am a passionate, creative philomath. My vivid imagination paired with my expertise in design theory results in eye-catching logos, posters, infographics, digital illustrations, and more. Unique, concise, cohesive, and impactful brand representation is always my top priority.</div>
-          <div class="body-text">In my free time I enjoy creating music and fiber art or reading a Stephen King book. My favorite swatch is PMS 109 C</div>
+      <div id="portfolio-header-text-container">
+        <div class="header-text">
+          <span class="main-title">Hi, I'm Shelby Ford</span>
+          <div class="body-text">I'm a Graphic Designer based out of Northeastern Pennsylvania</div>
         </div>
-      </div>
-
-      <!-- PROJECTS / MY WORK SECTION -->
-      <div id="my-work-section">
-        <!-- TODO - Change the subheader-text to whatever you want the Projects section header to say -->
-        <span class="subheader-text">My Work / My Projects</span>
-
-        <div class="projects-container">
-          <!-- 
-            TODO
-
-            This is where the project cards live. Here's a base level project card for you to copy:
-            <div class="project-card">
-              <img src="./assets/images/IMAGE_NAME" class="project-image">
-              <div class="project-card-text-container">
-                <div class="subheader-text project-title">PROJECT_NAME</div>
-                <div class="body-text project-card-text">SMALL_PROJECT_DESCRIPTION</div>
-              </div>
-              <a class="button" href="./project-pages/PROJECT_PAGE_NAME.html">
-                <span class="button-text">Read More</span>
-                <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
-              </a>
-            </div>
-
-            - To add a project to the this area, copy the above, paste it below this comment, and change the following:
-                - IMAGE_NAME: the name of the image file in assets/images
-                - PROJECT_NAME: the name of the project (keep it short, it only shows 1 line)
-                - SMALL_PROJECT_DESCRIPTION: a quick project description (max 4 lines)
-                - PROJECT_PAGE_NAME.html: the html filename for the project (must be in project-pages folder)
-          -->
-          <div class="magazine-card">
-            <img src="./assets/images/accordion.png" class="project-image">
-            <div class="project-card-text-container">
-              <div class="subheader-text project-title">Magazine</div>
-              <div class="body-text project-card-text"></div>
-            </div>
-            Using Indesign I produced a magazine drawing inspiration from my two children.
-            <a class="button" href="./project-pages/magazine.html">
-              <br>
-              <span class="button-text">Read More</span>
-              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
-            </a>
-          </div>
-          <div class="project-card">
-            <img src="./assets/images/menu1.png" class="project-image">
-            <div class="project-card-text-container">
-              <div class="subheader-text project-title">Menu</div>
-              <div class="body-text project-card-text">I designed a trifold menu using InDesign, aiming for a resemblance to the front and back of a playing card when closed. The seamless continuation of the diagonal brown panel as the menu opens adds to its visual appeal..</div>
-            </div>
-            <a class="button" href="./project-pages/menu.html">
-              <span class="button-text">Read More</span>
-              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
-            </a>
-          </div>
-          <div class="project-card">
-            <img src="./assets/images/poster.png" class="project-image">
-            <div class="project-card-text-container">
-              <div class="subheader-text project-title">Event Poster</div>
-              <div class="body-text project-card-text">This is yet another piece I created in Adobe Indesign. I love the color scheme and contrast against the black background. How cool would it be if these bands actually headlined a show together?
-              </div>
-            </div>
-            <a class="button" href="./project-pages/poster.html">
-              <span class="button-text">Read More</span>
-              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
-            </a>
-          </div>
-        </div>
+        <a class="button" id="my-work-link">
+          <span class="button-text">Check out my projects</span> 
+          <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+        </a>
       </div>
     </div>
 
-    <!-- FOOTER -->
-    <div id="footer">
-      <!-- 
-        TODO - Change href to your Instagram account (can also delete entire "a" element if no Instagram) 
+    <!-- ABOUT SECTION -->
+    <!-- 
+      TODO
 
-        This should be the same across all pages.
-      -->
-      <a class="icon-link" target="_blank" href="https://twitter.com/whitevans_eth">
-        <image src="./assets/icons/instagram.svg" class="footer-icon"/>
-      </a>
-      <!-- 
-        TODO - Change href to your Twitter account (can also delete entire "a" element if no Twitter) 
-      
-        This should be the same across all pages.
-      -->
-      <a class="icon-link" target="_blank" href="https://twitter.com/whitevans_eth">
-        <image src="./assets/icons/twitter.svg" class="footer-icon"/>
-      </a>
-      <!-- 
-        TODO - Change the email after "mailto" to your contact email 
-      
-        This should be the same across all pages.
-      -->
-      <a class="icon-link" href="mailto:whitevans.eth@gmail.com">
-        <image src="./assets/icons/mail.svg" class="footer-icon"/>
-      </a>
+      - Change the subheader-text to whatever header you want
+      - Add paragraphs using the <div class="body-text"></div> elements in the "about-section-content"
+    -->
+    <div id="about-section">
+      <span class="subheader-text">My Background / About Me</span>
+      <div class="about-section-content">
+        <div class="body-text">At my core, I am a passionate, creative philomath. My vivid imagination paired with my expertise in design theory results in eye-catching logos, posters, infographics, digital illustrations, and more. Unique, concise, cohesive, and impactful brand representation is always my top priority.</div>
+        <div class="body-text">In my free time I enjoy creating music and fiber art or reading a Stephen King book. My favorite swatch is PMS 109 C</div>
+      </div>
     </div>
 
-	</body>
+    <!-- PROJECTS / MY WORK SECTION -->
+    <div id="my-work-section">
+      <!-- TODO - Change the subheader-text to whatever you want the Projects section header to say -->
+      <span class="subheader-text">My Work / My Projects</span>
+
+      <div class="projects-container">
+        <!-- 
+          TODO
+
+          This is where the project cards live. Here's a base level project card for you to copy:
+          <div class="project-card">
+            <img src="./assets/images/IMAGE_NAME" class="project-image">
+            <div class="project-card-text-container">
+              <div class="subheader-text project-title">PROJECT_NAME</div>
+              <div class="body-text project-card-text">SMALL_PROJECT_DESCRIPTION</div>
+            </div>
+            <a class="button" href="./project-pages/PROJECT_PAGE_NAME.html">
+              <span class="button-text">Read More</span>
+              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+            </a>
+          </div>
+
+          - To add a project to the this area, copy the above, paste it below this comment, and change the following:
+              - IMAGE_NAME: the name of the image file in assets/images
+              - PROJECT_NAME: the name of the project (keep it short, it only shows 1 line)
+              - SMALL_PROJECT_DESCRIPTION: a quick project description (max 4 lines)
+              - PROJECT_PAGE_NAME.html: the html filename for the project (must be in project-pages folder)
+        -->
+        <div class="project-card">
+          <img src="./assets/images/accordion.png" class="project-image">
+          <div class="project-card-text-container">
+            <div class="subheader-text project-title">Magazine</div>
+            <div class="body-text project-card-text">Using Indesign I produced a magazine drawing inspiration from my two children.</div>
+          </div>
+          <a class="button" href="./project-pages/magazine.html">
+            <br>
+            <span class="button-text">Read More</span>
+            <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+          </a>
+        </div>
+        <div class="project-card">
+          <img src="./assets/images/menu1.png" class="project-image">
+          <div class="project-card-text-container">
+            <div class="subheader-text project-title">Menu</div>
+            <div class="body-text project-card-text">I designed a trifold menu using InDesign, aiming for a resemblance to the front and back of a playing card when closed. The seamless continuation of the diagonal brown panel as the menu opens adds to its visual appeal.</div>
+          </div>
+          <a class="button" href="./project-pages/menu.html">
+            <span class="button-text">Read More</span>
+            <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+          </a>
+        </div>
+        <div class="project-card">
+          <img src="./assets/images/poster.png" class="project-image">
+          <div class="project-card-text-container">
+            <div class="subheader-text project-title">Event Poster</div>
+            <div class="body-text project-card-text">This is yet another piece I created in Adobe Indesign. I love the color scheme and contrast against the black background. How cool would it be if these bands actually headlined a show together?</div>
+          </div>
+          <a class="button" href="./project-pages/poster.html">
+            <span class="button-text">Read More</span>
+            <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <div id="footer">
+    <!-- 
+      TODO - Change href to your Instagram account (can also delete entire "a" element if no Instagram) 
+
+      This should be the same across all pages.
+    -->
+    <a class="icon-link" target="_blank" href="https://twitter.com/whitevans_eth">
+      <image src="./assets/icons/instagram.svg" class="footer-icon"/>
+    </a>
+    <!-- 
+      TODO - Change href to your Twitter account (can also delete entire "a" element if no Twitter) 
+
+      This should be the same across all pages.
+    -->
+    <a class="icon-link" target="_blank" href="https://twitter.com/whitevans_eth">
+      <image src="./assets/icons/twitter.svg" class="footer-icon"/>
+    </a>
+    <!-- 
+      TODO - Change the email after "mailto" to your contact email 
+
+      This should be the same across all pages.
+    -->
+    <a class="icon-link" href="mailto:musicbyford@gmail.com">
+      <image src="./assets/icons/mail.svg" class="footer-icon"/>
+    </a>
+  </div>
+</body>
 </html>
